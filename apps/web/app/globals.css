@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet map core styles */
+@import 'leaflet/dist/leaflet.css';
+
+:root {
+  --atlas-navy: #0F2744;
+  --atlas-blue: #1A5DA6;
+  --atlas-sky:  #4A9FD4;
+  --atlas-sand: #F5F0E8;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
