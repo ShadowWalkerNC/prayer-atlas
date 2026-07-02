@@ -1,0 +1,18 @@
+# Node
+node_modules/
+.next/
+.env.local
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Supabase
+.supabase/
